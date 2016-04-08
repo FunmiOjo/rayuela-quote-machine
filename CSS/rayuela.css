@@ -1,0 +1,44 @@
+body {
+	font-family: "Gentium Book Basic";
+	background-color: "#FFF";
+}
+
+h1 {
+	
+	font-size: 50px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 20px auto;
+	width: 80%;
+}
+
+#button-display {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#quoteDisplay {
+	margin-top: 30px;
+	font-size: 40px;
+	line-height: 1.3em;	
+}
+
+button  {
+	margin: 0 auto;
+	color: black;
+	background-color: transparent;
+	font-family: "Gentium Book Basic";
+	font-size: 20px;
+	font-style: italic;
+	text-decoration: none;
+	padding: 10px;
+	border: solid;
+	box-shadow: none;
+}
+
+button:focus, button:active, button.active, button:focus:active {
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
